@@ -9,6 +9,7 @@ session = Session()
 # se crea un objeto de tipo
 # Saludo
 
+#agrega data por objetos en ves de consultas sql
 miSaludo = Saludo()
 miSaludo.mensaje = "Hola que tal"
 miSaludo.tipo = "informal"
